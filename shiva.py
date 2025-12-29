@@ -21,4 +21,14 @@ my_name = input("Enter your name :")
 print("welcome to Mr " + my_name + " have some fun !" )
 print("hello")
 
+number_1 = input("Enter a number1 :")
+number_2 = input("Enter a number2 :")
+Result = float(number_1) + float(number_2) # int and float convert the value to the number 
+print(Result)
+# lists in python
+coding_languages = ["java" ,"python","html","css"]
+print(coding_languages[0])
+print(coding_languages[-2])
+print(coding_languages[1:4])
+
 
