@@ -26,7 +26,7 @@ number_7.remove(15) # it is used to remove the elements from the list
 print(number_7)
 
 number_0 = [1,2,3,4,5]
-number_0.clear() # it clear the whole list and make it empty
+number_0.clear() # it clears the whole list and make it empty
 print(number_0)
 
 
@@ -45,3 +45,9 @@ print(number_10)
 number_11 = [1,1,3,2,1,2,1,3,1]
 number_12 = number_11.count(1) #Returns the number of times a specified element appears in the list.
 print(number_12)
+
+#tuples in python
+number = (1,2) #we cant change or cant add or cant remove the elements from tuples
+print(number)
+
+
