@@ -1,14 +1,14 @@
 # writing a Dictionary for student names
 student_id_t0_name ={  # student_id_to_name is the dictionary and "{}" are oping and closing section.
-101 : "shiva", # 101 = key and shiva = value
-102: "ram",
-103: "sharan",
-104: "rajesh",
-105: "pawan"
+101 : "Shiva", # 101 = key and shiva = value
+102: "Ram",
+103: "Sharan",
+104: "Rajesh",
+105: "Pawan"
 }
 print(student_id_t0_name[102])
 print(student_id_t0_name.get(105))
-student_id_t0_name[106] = "kalyan" # it is used to add new key and vale
+student_id_t0_name[106] = "Kalyan" # it is used to add new key and vale
 print(student_id_t0_name[106])
 
 for key,value in student_id_t0_name.items():
