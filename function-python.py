@@ -14,3 +14,14 @@ def say(name,age):
     print("hello " + name + "are you " +age)
 (say("shiva","24"))
 (say("ram","26"))
+
+# Return Statement
+def square(A):    #function called step 2
+        return A*A # function return final step
+
+print(square(11)) #function  step1
+
+def cube(num):
+       return num*num*num
+result = cube(2)
+print(result)
