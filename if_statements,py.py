@@ -64,4 +64,5 @@ elif operator == "/":
 elif operator == "%":
     print(number_1 % number_2)
 else:
-    print("enter a correct operator")
+    print("enter the correct operator")
+
