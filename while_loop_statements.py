@@ -27,6 +27,5 @@ while sl_no <=5 and  I <=5 and age !=22:
     I = I + 1
     sl_no += 1
     age += 1
-
 print("thank you")
 
