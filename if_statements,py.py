@@ -5,6 +5,23 @@ if is_boy:
 else:
     print("You are a girl")
 
+password = "Mr.rockline"
+enter_password = input("enter the password")
+if password == enter_password:
+    print("welcome ")
+else:
+    print("incorrect password")
+print(enter_password)
+
+
+Name = "shiva"
+user_name = input("What is your name? ")
+if user_name == Name:
+    print("Welcome, " + user_name)
+else:
+    print("incorrect user")
+
+
 Number = float(input("Enter a number:"))
 if Number/2*Number==Number:
     print("The number is even")
